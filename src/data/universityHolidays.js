@@ -1,0 +1,23 @@
+export const UNIVERSITY_HOLIDAYS = [
+  "Independence",
+  "Janmashtami",
+  "Ganesh",
+  "Diwali",
+  "Deepavali",
+  "New Year",
+  "Republic",
+  "Holi",
+  "Ugadi",
+  "Ramzan",
+  "Rama Navami",
+  "Good Friday",
+  "Ambedkar",
+  "Bakrid",
+  "Muharram",
+  "Vijaya Dashami",
+  "Dussehra",
+  "Makar Sankranti",
+  "Sankranti",
+  "Pongal",
+  "Shivaratri"
+];

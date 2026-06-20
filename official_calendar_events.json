@@ -1,0 +1,822 @@
+{
+  "I": [
+    {
+      "name": "Student Induction Program",
+      "start": "05.08.2024",
+      "end": "24.08.2024"
+    },
+    {
+      "name": "Registration to I Semester Courses",
+      "start": "14.08.2024",
+      "end": "17.08.2024"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "27.08.2024",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "23.10.2024",
+      "end": "25.10.2024"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "start": "14.12.2024",
+      "end": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "start": "16.12.2024",
+      "end": "18.12.2024"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "23.12.2024",
+      "end": "26.12.2024"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "start": "27.12.2024",
+      "end": "28.12.2024"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "30.12.2024",
+      "end": "11.01.2025"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "20.01.2025",
+      "end": "25.01.2025"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "01.02.2025",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "01.02.2025",
+      "end": "03.02.2025"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "04.02.2025",
+      "end": "05.02.2025"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "01.02.2025",
+      "end": "06.02.2025"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "13.02.2025",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "17.02.2025",
+      "end": null
+    },
+    {
+      "name": "Commencement of II Semester",
+      "start": "27.01.2025",
+      "end": null
+    }
+  ],
+  "II": [
+    {
+      "name": "Registration to II Semester Courses",
+      "start": "08.01.2025",
+      "end": "10.01.2025"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "27.01.2025",
+      "end": null
+    },
+    {
+      "name": "Last date to register or drop a Course with Fine",
+      "start": "03.02.2025",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "19.03.2025",
+      "end": "21.03.2025"
+    },
+    {
+      "name": "Summer Vacation",
+      "start": "19.05.2025",
+      "end": "31.05.2025"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "start": "24.05.2025",
+      "end": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "start": "26.05.2025",
+      "end": "28.05.2025"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "02.06.2025",
+      "end": "04.06.2025"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "start": "05.06.2025",
+      "end": "06.06.2025"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "09.06.2025",
+      "end": "14.06.2025"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "16.06.2025",
+      "end": "28.06.2025"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "05.07.2025",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "05.07.2025",
+      "end": "07.07.2025"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "08.07.2025",
+      "end": "09.07.2025"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "05.07.2025",
+      "end": "10.07.2025"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "17.07.2025",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "21.07.2025",
+      "end": null
+    },
+    {
+      "name": "Commencement of III Semester",
+      "start": "30.06.2025",
+      "end": null
+    }
+  ],
+  "III": [
+    {
+      "name": "Registration to III Semester Courses",
+      "start": "16.06.2025",
+      "end": "18.06.2025"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "30.06.2025",
+      "end": null
+    },
+    {
+      "name": "Last date to register or drop a Course with Fine",
+      "start": "07.07.2025",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "20.08.2025",
+      "end": "22.08.2025"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "start": "18.10.2025",
+      "end": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "start": "20.10.2025",
+      "end": "22.10.2025"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "27.10.2025",
+      "end": "29.10.2025"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "start": "30.10.2025",
+      "end": "01.11.2025"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "03.11.2025",
+      "end": "15.11.2025"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "17.11.2025",
+      "end": "29.11.2025"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "06.12.2025",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "06.12.2025",
+      "end": "08.12.2025"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "09.12.2025",
+      "end": "10.12.2025"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "06.12.2025",
+      "end": "11.12.2025"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "18.12.2025",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "22.12.2025",
+      "end": null
+    },
+    {
+      "name": "Commencement of IV Semester",
+      "start": "01.12.2025",
+      "end": null
+    }
+  ],
+  "IV": [
+    {
+      "name": "Registration to IV Semester Courses",
+      "start": "17.11.2025",
+      "end": "19.11.2025"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "01.12.2025",
+      "end": null
+    },
+    {
+      "name": "Last date to register or drop a Course with Fine",
+      "start": "08.12.2025",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "28.01.2026",
+      "end": "30.01.2026"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "start": "19.03.2026",
+      "end": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "start": "23.03.2026",
+      "end": "25.03.2026"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "30.03.2026",
+      "end": "01.04.2026"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "start": "02.04.2026",
+      "end": "04.04.2026"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "06.04.2026",
+      "end": "18.04.2026"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "20.04.2026",
+      "end": "02.05.2026"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "09.05.2026",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "09.05.2026",
+      "end": "11.05.2026"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "12.05.2026",
+      "end": "13.05.2026"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "09.05.2026",
+      "end": "14.05.2026"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "21.05.2026",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "25.05.2026",
+      "end": null
+    },
+    {
+      "name": "Commencement of Summer Semester",
+      "start": "04.05.2026",
+      "end": null
+    },
+    {
+      "name": "Commencement of V Semester",
+      "start": "29.06.2026",
+      "end": null
+    }
+  ],
+  "S1": [
+    {
+      "name": "Registration to Courses with fee",
+      "start": "20.04.2026",
+      "end": "22.04.2026"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "04.05.2026",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "26.05.2026",
+      "end": "29.05.2026"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "15.06.2026",
+      "end": "17.06.2026"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "18.06.2026",
+      "end": "20.06.2026"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "22.06.2026",
+      "end": "27.06.2026"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "04.07.2026",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "04.07.2026",
+      "end": "06.07.2026"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "07.07.2026",
+      "end": "08.07.2026"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "04.07.2026",
+      "end": "09.07.2026"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "16.07.2026",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "20.07.2026",
+      "end": null
+    },
+    {
+      "name": "Commencement of V Semester Class Work",
+      "start": "29.06.2026",
+      "end": null
+    }
+  ],
+  "V": [
+    {
+      "name": "Registration to V Semester Courses",
+      "start": "17.06.2026",
+      "end": "20.06.2026"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "29.06.2026",
+      "end": null
+    },
+    {
+      "name": "Last date to register or drop a Course with Fine",
+      "start": "06.07.2026",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "19.08.2026",
+      "end": "21.08.2026"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "start": "17.10.2026",
+      "end": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "start": "19.10.2026",
+      "end": "21.10.2026"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "26.10.2026",
+      "end": "28.10.2026"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "start": "29.10.2026",
+      "end": "31.10.2026"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "02.11.2026",
+      "end": "14.11.2026"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "16.11.2026",
+      "end": "28.11.2026"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "05.12.2026",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "05.12.2026",
+      "end": "07.12.2026"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "08.12.2026",
+      "end": "09.12.2026"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "05.12.2026",
+      "end": "10.12.2026"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "17.12.2026",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "21.12.2026",
+      "end": null
+    },
+    {
+      "name": "Commencement of VI Semester",
+      "start": "30.11.2026",
+      "end": null
+    }
+  ],
+  "VI": [
+    {
+      "name": "Registration to VI Semester Courses",
+      "start": "16.11.2026",
+      "end": "18.11.2026"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "30.11.2026",
+      "end": null
+    },
+    {
+      "name": "Last date to register or drop a Course with Fine",
+      "start": "07.12.2026",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "27.01.2027",
+      "end": "29.01.2027"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "start": "20.03.2027",
+      "end": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "start": "22.03.2027",
+      "end": "24.03.2027"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "29.03.2027",
+      "end": "31.03.2027"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "start": "01.04.2027",
+      "end": "03.04.2027"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "05.04.2027",
+      "end": "17.04.2027"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "19.04.2027",
+      "end": "01.05.2027"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "08.05.2027",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "08.05.2027",
+      "end": "10.05.2027"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "11.05.2027",
+      "end": "12.05.2027"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "08.05.2027",
+      "end": "13.05.2027"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "20.05.2027",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "24.05.2027",
+      "end": null
+    },
+    {
+      "name": "Commencement of Summer Semester",
+      "start": "03.05.2027",
+      "end": null
+    },
+    {
+      "name": "Commencement of VII Semester",
+      "start": "28.06.2027",
+      "end": null
+    }
+  ],
+  "S2": [
+    {
+      "name": "Registration to Courses with fee",
+      "start": "19.04.2027",
+      "end": "21.04.2027"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "03.05.2027",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "26.05.2027",
+      "end": "28.05.2027"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "14.06.2027",
+      "end": "17.06.2027"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "18.06.2027",
+      "end": "19.06.2027"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "21.06.2027",
+      "end": "26.06.2027"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "03.07.2027",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "03.07.2027",
+      "end": "05.07.2027"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "06.07.2027",
+      "end": "07.07.2027"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "03.07.2027",
+      "end": "08.07.2027"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "15.07.2027",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "19.07.2027",
+      "end": null
+    },
+    {
+      "name": "Commencement of VII Semester Class Work",
+      "start": "28.06.2027",
+      "end": null
+    }
+  ],
+  "VII": [
+    {
+      "name": "Registration to VII Semester Courses",
+      "start": "14.06.2027",
+      "end": "16.06.2027"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "28.06.2027",
+      "end": null
+    },
+    {
+      "name": "Last date to register or drop a Course with Fine",
+      "start": "05.07.2027",
+      "end": null
+    },
+    {
+      "name": "Internal Examinations - I",
+      "start": "18.08.2027",
+      "end": "20.08.2027"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "start": "16.10.2027",
+      "end": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "start": "18.10.2027",
+      "end": "20.10.2027"
+    },
+    {
+      "name": "Internal Examinations - II",
+      "start": "25.10.2027",
+      "end": "27.10.2027"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "start": "28.10.2027",
+      "end": "30.10.2027"
+    },
+    {
+      "name": "Semester End Examinations - Lab",
+      "start": "01.11.2027",
+      "end": "13.11.2027"
+    },
+    {
+      "name": "Semester End Examinations - Theory",
+      "start": "15.11.2027",
+      "end": "27.11.2027"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "04.12.2027",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "04.12.2027",
+      "end": "06.12.2027"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "07.12.2027",
+      "end": "08.12.2027"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "04.12.2027",
+      "end": "09.12.2027"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "16.12.2027",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "20.12.2027",
+      "end": null
+    },
+    {
+      "name": "Commencement of VIII Semester",
+      "start": "29.11.2027",
+      "end": null
+    }
+  ],
+  "VIII": [
+    {
+      "name": "Registration to VIII Semester Courses",
+      "start": "15.11.2027",
+      "end": "17.11.2027"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "start": "29.11.2027",
+      "end": null
+    },
+    {
+      "name": "Last date to register or drop a Course with Fine",
+      "start": "06.12.2027",
+      "end": null
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "start": "18.03.2028",
+      "end": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "start": "20.03.2028",
+      "end": "22.03.2028"
+    },
+    {
+      "name": "Semester End Examinations - Project Viva voce",
+      "start": "03.04.2028",
+      "end": "15.04.2028"
+    },
+    {
+      "name": "Declaration of Results",
+      "start": "22.04.2028",
+      "end": null
+    },
+    {
+      "name": "Payment for SEE script viewing",
+      "start": "22.04.2028",
+      "end": "24.04.2028"
+    },
+    {
+      "name": "SEE Script viewing by students",
+      "start": "25.04.2028",
+      "end": "26.04.2028"
+    },
+    {
+      "name": "Payment for revaluation of SEE scripts",
+      "start": "22.04.2028",
+      "end": "27.04.2028"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "start": "04.05.2028",
+      "end": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "start": "08.05.2028",
+      "end": null
+    }
+  ]
+}

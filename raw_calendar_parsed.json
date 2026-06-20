@@ -1,0 +1,219 @@
+{
+  "I": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "Student Induction Program",
+      "Commencement of Class Work",
+      "Intemal Examinations \u2014I",
+      "Finalization of Detentions based on attendance",
+      "Intemal Examinations \u2014II",
+      "Makeup Intemal Examinations",
+      "Declaration of Results",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Online Grade Sheet"
+    ],
+    "raw_dates": []
+  },
+  "II": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "S. No.",
+      "Commencement of Class Work",
+      "Last date to register or drop a Course with Fine",
+      "Internal Examinations \u2014I",
+      "Summer Vacation",
+      "Finalization of Detentions based on attendance",
+      "Intemal Examinations \u2014II",
+      "Makeup Intemal Examinations",
+      "Declaration of Results",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Online Grade Sheet"
+    ],
+    "raw_dates": []
+  },
+  "III": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "Commencement of Class Work",
+      "Last date to register or drop a Course with Fine",
+      "Intemal Examinations \u2014I",
+      "Finalization of Detentions based on attendance",
+      "Intemal Examinations \u2014II",
+      "Makeup Intemal Examinations",
+      "Declaration of Results",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Online Glade Sheet"
+    ],
+    "raw_dates": []
+  },
+  "IV": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "S. No.",
+      "Commencement of Class Work",
+      "Last date to register or drop a Course with Fine",
+      "Internal Examinations \u2014I",
+      "Finalization of Detentions based on attendance",
+      "Internal Examinations \u2014II",
+      "Makeup Internal Examinations",
+      "Declaration ofResults",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Online Grade Sheet",
+      "Aram-tics"
+    ],
+    "raw_dates": []
+  },
+  "S1": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "S. No.",
+      "Registration to Courses with fee",
+      "Commencement of Class Work",
+      "Internal Examinations I",
+      "Internal Examinations \u2014 II",
+      "Declaration of Results",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Online Grade Sheet",
+      "cellar"
+    ],
+    "raw_dates": []
+  },
+  "V": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "UNIVERSITY",
+      "Commencement of Class Work",
+      "Last date to register or drop a Course with Fine",
+      "Intemal Examinations \u2014I",
+      "Finalization of Detentions based on attendance",
+      "Intemal Examinations \u2014II",
+      "Makeup Intemal Exammations",
+      "Declaration of Results",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Online Grade Sheet"
+    ],
+    "raw_dates": []
+  },
+  "VI": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "S. No.",
+      "Commencement of Class Work",
+      "Last date to register or drop a Course with Fine",
+      "Intemal Examinations \u2014I",
+      "Finalization of Detentions based on attendance",
+      "Intemal Examinations \u2014II",
+      "Makeup Internal Examinations",
+      "Declaration of Results",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Onlme Grade Sheet"
+    ],
+    "raw_dates": []
+  },
+  "S2": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "S. No.",
+      "Registration to Courses with fee",
+      "Commencement of Class Work",
+      "Internal Examinations \u2014 I",
+      "Internal Exammations \u2014 II",
+      "Declaration of Results",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration ofRevaluation results",
+      "Availability of Online Grade Sheet"
+    ],
+    "raw_dates": []
+  },
+  "VII": {
+    "events": {},
+    "working_days": null,
+    "holidays": [],
+    "vacations": [],
+    "raw_descriptions": [
+      "Commencement of Class Work",
+      "Lasi date to register or drop a Course with Fine",
+      "Intemal Examinations \u2014I",
+      "Finalization ofDetentions based on attendance",
+      "Intemal Examinations \u2014II",
+      "Makeup Intemal Examinations",
+      "Declaration of Results",
+      "Payment for SEE script viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Online Grade Sheet"
+    ],
+    "raw_dates": []
+  },
+  "VIII": {
+    "events": {},
+    "working_days": null,
+    "holidays": [
+      {
+        "name": "16.012028",
+        "date": "09.01.2028"
+      }
+    ],
+    "vacations": [],
+    "raw_descriptions": [
+      "Commencement of Class Work",
+      "Last date to register or drop a Course with Fme",
+      "Finalization of Detentions based on attendance",
+      "Declaration of Results",
+      "Payment for SEE sclipt viewing",
+      "SEE Script viewing by students",
+      "Payment for revaluation of SEE scripts",
+      "Declaration of Revaluation results",
+      "Availability of Online Grade Sheet"
+    ],
+    "raw_dates": []
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "I": [
+    {
+      "name": "",
+      "date": "15.08.2024",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "26.08.2024",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "07.09.2024",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "16.09.2024",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "02.10.2024",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "start": "06.10.2024",
+      "end": "13.10.2024",
+      "type": "vacation"
+    },
+    {
+      "name": "",
+      "date": "31.10.2024",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "25.12.2024",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "01.01.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "start": "12.01.2024",
+      "end": "19.01.2025",
+      "type": "vacation"
+    }
+  ],
+  "II": [
+    {
+      "name": "",
+      "date": "26.02.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "14.03.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "31.03.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "05.04.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "14.04.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "18.04.2025",
+      "type": "holiday"
+    }
+  ],
+  "III": [
+    {
+      "name": "",
+      "date": "15.08.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "16.08.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "27.08.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "05.09.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "02.10.2025",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "start": "28.09.2025",
+      "end": "05.10.2025",
+      "type": "vacation"
+    },
+    {
+      "name": "",
+      "date": "20.10.2025",
+      "type": "holiday"
+    }
+  ],
+  "IV": [
+    {
+      "name": "",
+      "start": "11.01.2026",
+      "end": "18.01.2026",
+      "type": "vacation"
+    },
+    {
+      "name": "",
+      "date": "14.04.2026",
+      "type": "holiday"
+    }
+  ],
+  "S1": [
+    {
+      "name": "",
+      "date": "27.05.2026",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "26.06.2026",
+      "type": "holiday"
+    }
+  ],
+  "V": [
+    {
+      "name": "",
+      "date": "15.08.2026",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "25.08.2026",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "04.09.2026",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "15.09.2026",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "02.10.2026",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "start": "18.10.2026",
+      "end": "25.10.2026",
+      "type": "vacation"
+    }
+  ],
+  "VI": [
+    {
+      "name": "",
+      "date": "25.12.2026",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "01.01.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "start": "10.01.2027",
+      "end": "17.01.2027",
+      "type": "vacation"
+    },
+    {
+      "name": "",
+      "date": "26.01.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "06.03.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "10.03.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "26.03.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "05.04.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "08.04.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "14.04.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "15.04.2027",
+      "type": "holiday"
+    }
+  ],
+  "S2": [
+    {
+      "name": "",
+      "date": "17.05.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "15.06.2027",
+      "type": "holiday"
+    }
+  ],
+  "VII": [
+    {
+      "name": "",
+      "date": "25.08.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "04.09.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "02.10.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "start": "03.10.2027",
+      "end": "10.10.2027",
+      "type": "vacation"
+    },
+    {
+      "name": "",
+      "date": "29.10.2027",
+      "type": "holiday"
+    }
+  ],
+  "VIII": [
+    {
+      "name": "",
+      "date": "25.12.2027",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "01.01.2028",
+      "type": "holiday"
+    },
+    {
+      "name": "- 16.012028",
+      "date": "09.01.2028",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "26.01.2028",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "23.02.2028",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "10.03.2028",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "04.04.2028",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "05.04.2028",
+      "type": "holiday"
+    },
+    {
+      "name": "",
+      "date": "14.04.2028",
+      "type": "holiday"
+    }
+  ]
+}
