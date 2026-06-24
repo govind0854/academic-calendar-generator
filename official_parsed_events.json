@@ -1,0 +1,995 @@
+{
+  "I": [
+    {
+      "name": "Student Induction Program",
+      "startOffset": -21,
+      "endOffset": -2,
+      "startStr": "04.08.2025",
+      "endStr": "23.08.2025"
+    },
+    {
+      "name": "Registration to I Semester Courses",
+      "startOffset": -14,
+      "endOffset": -9,
+      "startStr": "11.08.2025",
+      "endStr": "16.08.2025"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "25.08.2025",
+      "endStr": null
+    },
+    {
+      "name": "Last date to register or drop a Course",
+      "startOffset": 7,
+      "endOffset": null,
+      "startStr": "01.09.2025",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations –I",
+      "startOffset": 58,
+      "endOffset": 60,
+      "startStr": "22.10.2025",
+      "endStr": "24.10.2025"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "startOffset": 110,
+      "endOffset": null,
+      "startStr": "13.12.2025",
+      "endStr": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "startOffset": 112,
+      "endOffset": 114,
+      "startStr": "15.12.2025",
+      "endStr": "17.12.2025"
+    },
+    {
+      "name": "Internal Examinations –II",
+      "startOffset": 119,
+      "endOffset": 121,
+      "startStr": "22.12.2025",
+      "endStr": "24.12.2025"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "startOffset": 123,
+      "endOffset": 124,
+      "startStr": "26.12.2025",
+      "endStr": "27.12.2025"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 126,
+      "endOffset": 138,
+      "startStr": "29.12.2025",
+      "endStr": "10.01.2026"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 147,
+      "endOffset": 152,
+      "startStr": "19.01.2026",
+      "endStr": "24.01.2026"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 166,
+      "endOffset": null,
+      "startStr": "07.02.2026",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 166,
+      "endOffset": 170,
+      "startStr": "07.02.2026",
+      "endStr": "11.02.2026"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 177,
+      "endOffset": null,
+      "startStr": "18.02.2026",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 187,
+      "endOffset": null,
+      "startStr": "28.02.2026",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of II Semester",
+      "startOffset": 155,
+      "endOffset": null,
+      "startStr": "27.01.2026",
+      "endStr": null
+    }
+  ],
+  "II": [
+    {
+      "name": "Registration to II Semester Courses",
+      "startOffset": -22,
+      "endOffset": -17,
+      "startStr": "05.01.2026",
+      "endStr": "10.01.2026"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "27.01.2026",
+      "endStr": null
+    },
+    {
+      "name": "Last date to register or drop a Course",
+      "startOffset": 7,
+      "endOffset": null,
+      "startStr": "03.02.2026",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations –I",
+      "startOffset": 49,
+      "endOffset": 52,
+      "startStr": "17.03.2026",
+      "endStr": "20.03.2026"
+    },
+    {
+      "name": "Summer Vacation",
+      "startOffset": 111,
+      "endOffset": 123,
+      "startStr": "18.05.2026",
+      "endStr": "30.05.2026"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "startOffset": 116,
+      "endOffset": null,
+      "startStr": "23.05.2026",
+      "endStr": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "startOffset": 118,
+      "endOffset": 120,
+      "startStr": "25.05.2026",
+      "endStr": "27.05.2026"
+    },
+    {
+      "name": "Internal Examinations –II",
+      "startOffset": 125,
+      "endOffset": 127,
+      "startStr": "01.06.2026",
+      "endStr": "03.06.2026"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "startOffset": 128,
+      "endOffset": 130,
+      "startStr": "04.06.2026",
+      "endStr": "06.06.2026"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 132,
+      "endOffset": 137,
+      "startStr": "08.06.2026",
+      "endStr": "13.06.2026"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 139,
+      "endOffset": 151,
+      "startStr": "15.06.2026",
+      "endStr": "27.06.2026"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 165,
+      "endOffset": null,
+      "startStr": "11.07.2026",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 165,
+      "endOffset": 169,
+      "startStr": "11.07.2026",
+      "endStr": "15.07.2026"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 176,
+      "endOffset": null,
+      "startStr": "22.07.2026",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 186,
+      "endOffset": null,
+      "startStr": "01.08.2026",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of III Semester",
+      "startOffset": 153,
+      "endOffset": null,
+      "startStr": "29.06.2026",
+      "endStr": null
+    }
+  ],
+  "III": [
+    {
+      "name": "Registration to III Semester Courses",
+      "startOffset": -21,
+      "endOffset": -16,
+      "startStr": "08.06.2026",
+      "endStr": "13.06.2026"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "29.06.2026",
+      "endStr": null
+    },
+    {
+      "name": "Last date to register or drop a Course",
+      "startOffset": 7,
+      "endOffset": null,
+      "startStr": "06.07.2026",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations –I",
+      "startOffset": 51,
+      "endOffset": 53,
+      "startStr": "19.08.2026",
+      "endStr": "21.08.2026"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "startOffset": 117,
+      "endOffset": null,
+      "startStr": "24.10.2026",
+      "endStr": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "startOffset": 119,
+      "endOffset": 121,
+      "startStr": "26.10.2026",
+      "endStr": "28.10.2026"
+    },
+    {
+      "name": "Internal Examinations –II",
+      "startOffset": 126,
+      "endOffset": 128,
+      "startStr": "02.11.2026",
+      "endStr": "04.11.2026"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "startOffset": 129,
+      "endOffset": 131,
+      "startStr": "05.11.2026",
+      "endStr": "07.11.2026"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 133,
+      "endOffset": 138,
+      "startStr": "09.11.2026",
+      "endStr": "14.11.2026"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 140,
+      "endOffset": 152,
+      "startStr": "16.11.2026",
+      "endStr": "28.11.2026"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 166,
+      "endOffset": null,
+      "startStr": "12.12.2026",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 166,
+      "endOffset": 170,
+      "startStr": "12.12.2026",
+      "endStr": "16.12.2026"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 177,
+      "endOffset": null,
+      "startStr": "23.12.2026",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": -178,
+      "endOffset": null,
+      "startStr": "02.01.2026",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of IV Semester",
+      "startOffset": 154,
+      "endOffset": null,
+      "startStr": "30.11.2026",
+      "endStr": null
+    }
+  ],
+  "IV": [
+    {
+      "name": "Registration to IV Semester Courses",
+      "startOffset": -21,
+      "endOffset": -16,
+      "startStr": "09.11.2026",
+      "endStr": "14.11.2026"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "30.11.2026",
+      "endStr": null
+    },
+    {
+      "name": "Last date to register or drop a Course",
+      "startOffset": 7,
+      "endOffset": null,
+      "startStr": "07.12.2026",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations –I",
+      "startOffset": 58,
+      "endOffset": 60,
+      "startStr": "27.01.2027",
+      "endStr": "29.01.2027"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "startOffset": 117,
+      "endOffset": null,
+      "startStr": "27.03.2027",
+      "endStr": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "startOffset": 119,
+      "endOffset": 121,
+      "startStr": "29.03.2027",
+      "endStr": "31.03.2027"
+    },
+    {
+      "name": "Internal Examinations –II",
+      "startOffset": 126,
+      "endOffset": 128,
+      "startStr": "05.04.2027",
+      "endStr": "07.04.2027"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "startOffset": 130,
+      "endOffset": 131,
+      "startStr": "09.04.2027",
+      "endStr": "10.04.2027"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 133,
+      "endOffset": 138,
+      "startStr": "12.04.2027",
+      "endStr": "17.04.2027"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 140,
+      "endOffset": 152,
+      "startStr": "19.04.2027",
+      "endStr": "01.05.2027"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 166,
+      "endOffset": null,
+      "startStr": "15.05.2027",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 166,
+      "endOffset": 170,
+      "startStr": "15.05.2027",
+      "endStr": "19.05.2027"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 177,
+      "endOffset": null,
+      "startStr": "26.05.2027",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 187,
+      "endOffset": null,
+      "startStr": "05.06.2027",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of Summer Semester",
+      "startOffset": 154,
+      "endOffset": null,
+      "startStr": "03.05.2027",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of V Semester",
+      "startOffset": 210,
+      "endOffset": null,
+      "startStr": "28.06.2027",
+      "endStr": null
+    }
+  ],
+  "S1": [
+    {
+      "name": "Registration to Courses with fee",
+      "startOffset": -21,
+      "endOffset": -16,
+      "startStr": "12.04.2027",
+      "endStr": "17.04.2027"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "03.05.2027",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations – I",
+      "startOffset": 23,
+      "endOffset": 25,
+      "startStr": "26.05.2027",
+      "endStr": "28.05.2027"
+    },
+    {
+      "name": "Internal Examinations – II",
+      "startOffset": 42,
+      "endOffset": 45,
+      "startStr": "14.06.2027",
+      "endStr": "17.06.2027"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 46,
+      "endOffset": 47,
+      "startStr": "18.06.2027",
+      "endStr": "19.06.2027"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 49,
+      "endOffset": 54,
+      "startStr": "21.06.2027",
+      "endStr": "26.06.2027"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 61,
+      "endOffset": null,
+      "startStr": "03.07.2027",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 61,
+      "endOffset": 65,
+      "startStr": "03.07.2027",
+      "endStr": "07.07.2027"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 72,
+      "endOffset": null,
+      "startStr": "14.07.2027",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 82,
+      "endOffset": null,
+      "startStr": "24.07.2027",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of V Semester Class Work",
+      "startOffset": 56,
+      "endOffset": null,
+      "startStr": "28.06.2027",
+      "endStr": null
+    }
+  ],
+  "V": [
+    {
+      "name": "Registration to V Semester Courses",
+      "startOffset": -21,
+      "endOffset": -16,
+      "startStr": "07.06.2027",
+      "endStr": "12.06.2027"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "28.06.2027",
+      "endStr": null
+    },
+    {
+      "name": "Last date to register or drop a Course",
+      "startOffset": 7,
+      "endOffset": null,
+      "startStr": "05.07.2027",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations –I",
+      "startOffset": 51,
+      "endOffset": 53,
+      "startStr": "18.08.2027",
+      "endStr": "20.08.2027"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "startOffset": 117,
+      "endOffset": null,
+      "startStr": "23.10.2027",
+      "endStr": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "startOffset": 119,
+      "endOffset": 121,
+      "startStr": "25.10.2027",
+      "endStr": "27.10.2027"
+    },
+    {
+      "name": "Internal Examinations –II",
+      "startOffset": 126,
+      "endOffset": 128,
+      "startStr": "01.11.2027",
+      "endStr": "03.11.2027"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "startOffset": 129,
+      "endOffset": 131,
+      "startStr": "04.11.2027",
+      "endStr": "06.11.2027"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 133,
+      "endOffset": 138,
+      "startStr": "08.11.2027",
+      "endStr": "13.11.2027"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 140,
+      "endOffset": 152,
+      "startStr": "15.11.2027",
+      "endStr": "27.11.2027"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 166,
+      "endOffset": null,
+      "startStr": "11.12.2027",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 166,
+      "endOffset": 170,
+      "startStr": "11.12.2027",
+      "endStr": "15.12.2027"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 177,
+      "endOffset": null,
+      "startStr": "22.12.2027",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 187,
+      "endOffset": null,
+      "startStr": "01.01.2028",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of VI Semester",
+      "startOffset": 154,
+      "endOffset": null,
+      "startStr": "29.11.2027",
+      "endStr": null
+    }
+  ],
+  "VI": [
+    {
+      "name": "Registration to VI Semester Courses",
+      "startOffset": -21,
+      "endOffset": -16,
+      "startStr": "08.11.2027",
+      "endStr": "13.11.2027"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "29.11.2027",
+      "endStr": null
+    },
+    {
+      "name": "Last date to register or drop a Course",
+      "startOffset": 7,
+      "endOffset": null,
+      "startStr": "06.12.2027",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations –I",
+      "startOffset": 57,
+      "endOffset": 60,
+      "startStr": "25.01.2028",
+      "endStr": "28.01.2028"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "startOffset": 117,
+      "endOffset": null,
+      "startStr": "25.03.2028",
+      "endStr": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "startOffset": 119,
+      "endOffset": 121,
+      "startStr": "27.03.2028",
+      "endStr": "29.03.2028"
+    },
+    {
+      "name": "Internal Examinations –II",
+      "startOffset": 126,
+      "endOffset": 129,
+      "startStr": "03.04.2028",
+      "endStr": "06.04.2028"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "startOffset": 130,
+      "endOffset": 131,
+      "startStr": "07.04.2028",
+      "endStr": "08.04.2028"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 133,
+      "endOffset": 138,
+      "startStr": "10.04.2028",
+      "endStr": "15.04.2028"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 140,
+      "endOffset": 152,
+      "startStr": "17.04.2028",
+      "endStr": "29.04.2028"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 166,
+      "endOffset": null,
+      "startStr": "13.05.2028",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 166,
+      "endOffset": 170,
+      "startStr": "13.05.2028",
+      "endStr": "17.05.2028"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 177,
+      "endOffset": null,
+      "startStr": "24.05.2028",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 187,
+      "endOffset": null,
+      "startStr": "03.06.2028",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of Summer Semester",
+      "startOffset": 154,
+      "endOffset": null,
+      "startStr": "01.05.2028",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of VII Semester",
+      "startOffset": 210,
+      "endOffset": null,
+      "startStr": "26.06.2028",
+      "endStr": null
+    }
+  ],
+  "S2": [
+    {
+      "name": "Registration to Courses with fee",
+      "startOffset": -21,
+      "endOffset": -16,
+      "startStr": "10.04.2028",
+      "endStr": "15.04.2028"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "01.05.2028",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations – I",
+      "startOffset": 23,
+      "endOffset": 25,
+      "startStr": "24.05.2028",
+      "endStr": "26.05.2028"
+    },
+    {
+      "name": "Internal Examinations – II",
+      "startOffset": 42,
+      "endOffset": 44,
+      "startStr": "12.06.2028",
+      "endStr": "14.06.2028"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 45,
+      "endOffset": 47,
+      "startStr": "15.06.2028",
+      "endStr": "17.06.2028"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 49,
+      "endOffset": 54,
+      "startStr": "19.06.2028",
+      "endStr": "24.06.2028"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 61,
+      "endOffset": null,
+      "startStr": "01.07.2028",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 61,
+      "endOffset": 65,
+      "startStr": "01.07.2028",
+      "endStr": "05.07.2028"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 72,
+      "endOffset": null,
+      "startStr": "12.07.2028",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 82,
+      "endOffset": null,
+      "startStr": "22.07.2028",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of VII Semester Class Work",
+      "startOffset": 56,
+      "endOffset": null,
+      "startStr": "26.06.2028",
+      "endStr": null
+    }
+  ],
+  "VII": [
+    {
+      "name": "Registration to VII Semester Courses",
+      "startOffset": -21,
+      "endOffset": -16,
+      "startStr": "05.06.2028",
+      "endStr": "10.06.2028"
+    },
+    {
+      "name": "Commencement of Class Work",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "26.06.2028",
+      "endStr": null
+    },
+    {
+      "name": "Last date to register or drop a Course",
+      "startOffset": 7,
+      "endOffset": null,
+      "startStr": "03.07.2028",
+      "endStr": null
+    },
+    {
+      "name": "Internal Examinations –I",
+      "startOffset": 51,
+      "endOffset": 53,
+      "startStr": "16.08.2028",
+      "endStr": "18.08.2028"
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "startOffset": 117,
+      "endOffset": null,
+      "startStr": "21.10.2028",
+      "endStr": null
+    },
+    {
+      "name": "Payment of Semester End Examination(SEE) fee",
+      "startOffset": 119,
+      "endOffset": 121,
+      "startStr": "23.10.2028",
+      "endStr": "25.10.2028"
+    },
+    {
+      "name": "Internal Examinations –II",
+      "startOffset": 126,
+      "endOffset": 128,
+      "startStr": "30.10.2028",
+      "endStr": "01.11.2028"
+    },
+    {
+      "name": "Makeup Internal Examinations",
+      "startOffset": 129,
+      "endOffset": 131,
+      "startStr": "02.11.2028",
+      "endStr": "04.11.2028"
+    },
+    {
+      "name": "Semester End Examinations – Lab",
+      "startOffset": 133,
+      "endOffset": 138,
+      "startStr": "06.11.2028",
+      "endStr": "11.11.2028"
+    },
+    {
+      "name": "Semester End Examinations – Theory",
+      "startOffset": 140,
+      "endOffset": 152,
+      "startStr": "13.11.2028",
+      "endStr": "25.11.2028"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 166,
+      "endOffset": null,
+      "startStr": "09.12.2028",
+      "endStr": null
+    },
+    {
+      "name": "Payment for SEE script viewing & Revaluation",
+      "startOffset": 166,
+      "endOffset": 170,
+      "startStr": "09.12.2028",
+      "endStr": "13.12.2028"
+    },
+    {
+      "name": "Declaration of Revaluation results",
+      "startOffset": 177,
+      "endOffset": null,
+      "startStr": "20.12.2028",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 187,
+      "endOffset": null,
+      "startStr": "30.12.2028",
+      "endStr": null
+    },
+    {
+      "name": "Commencement of VIII Semester",
+      "startOffset": 154,
+      "endOffset": null,
+      "startStr": "27.11.2028",
+      "endStr": null
+    }
+  ],
+  "VIII": [
+    {
+      "name": "Registration to VIII Semester Courses",
+      "startOffset": -21,
+      "endOffset": -16,
+      "startStr": "06.11.2028",
+      "endStr": "11.11.2028"
+    },
+    {
+      "name": "Commencement of Project work / Full Semester Internship",
+      "startOffset": 0,
+      "endOffset": null,
+      "startStr": "27.11.2028",
+      "endStr": null
+    },
+    {
+      "name": "Last date to register or drop a Course",
+      "startOffset": 7,
+      "endOffset": null,
+      "startStr": "04.12.2028",
+      "endStr": null
+    },
+    {
+      "name": "Finalization of Detentions based on attendance",
+      "startOffset": 110,
+      "endOffset": null,
+      "startStr": "17.03.2029",
+      "endStr": null
+    },
+    {
+      "name": "Payment of Semester End Examination (SEE) fee",
+      "startOffset": 112,
+      "endOffset": 114,
+      "startStr": "19.03.2029",
+      "endStr": "21.03.2029"
+    },
+    {
+      "name": "Semester End Examinations",
+      "startOffset": 126,
+      "endOffset": 137,
+      "startStr": "02.04.2029",
+      "endStr": "13.04.2029"
+    },
+    {
+      "name": "Declaration of Results",
+      "startOffset": 152,
+      "endOffset": null,
+      "startStr": "28.04.2029",
+      "endStr": null
+    },
+    {
+      "name": "Availability of Online Grade Sheet",
+      "startOffset": 173,
+      "endOffset": null,
+      "startStr": "19.05.2029",
+      "endStr": null
+    }
+  ]
+}

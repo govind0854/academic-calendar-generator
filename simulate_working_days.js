@@ -1,18 +1,18 @@
 import { buildFullCalendar } from "./src/utils/calendarBuilder.js";
 
 const apiKey = "AIzaSyD8iLzk973U9wRlSUR48jBy_xRPk_QeBJ0";
-const commencementDate = "2024-08-27";
+const commencementDate = "2025-08-25";
 
 const officialTotals = {
-  "I Semester": 113,
-  "II Semester": 114,
+  "I Semester": 115,
+  "II Semester": 112,
   "III Semester": 121,
   "IV Semester": 117,
   "Summer Semester": 46, // S1
-  "V Semester": 121,
-  "VI Semester": 117,
+  "V Semester": 122,
+  "VI Semester": 119,
   "Summer Semester (S2)": 46, // S2
-  "VII Semester": 122,
+  "VII Semester": 123,
   "VIII Semester": 105
 };
 

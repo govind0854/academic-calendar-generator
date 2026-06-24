@@ -1,11 +1,8 @@
-import { EVENT_COLORS } from "../data/eventColors";
+import { getGridCellColorConfig } from "../data/eventColors.js";
 
 export const getCellStyles = (dayObj) => {
-  if (dayObj.event) {
-    const colorConfig = EVENT_COLORS.find(
-      (c) => dayObj.event.name.includes(c.keyword)
-    );
-
+  if (dayObj && dayObj.event) {
+    const colorConfig = getGridCellColorConfig(dayObj.event.name);
     if (colorConfig) {
       return {
         backgroundColor: colorConfig.bg,
@@ -13,11 +10,13 @@ export const getCellStyles = (dayObj) => {
       };
     }
   }
-
   return {};
 };
 
+
 export const getCellContent = (dayObj) => {
+  if (dayObj.isOutsideSemester) return "";
+  if (dayObj.isBlank) return "-";
   if (dayObj.event) return dayObj.date.getDate();
   if (!dayObj.isInstructional) return "-";
   return dayObj.date.getDate();

@@ -4,7 +4,7 @@ import { formatDate } from "./src/utils/dateUtils.js";
 import fs from "fs";
 
 const apiKey = "AIzaSyD8iLzk973U9wRlSUR48jBy_xRPk_QeBJ0";
-const commencementDate = "2024-08-27";
+const commencementDate = "2025-08-25";
 
 const officialEvents = JSON.parse(fs.readFileSync("official_calendar_events.json", "utf8"));
 

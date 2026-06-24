@@ -13,7 +13,7 @@ import CalendarTabs from "./components/CalendarTabs";
 
 // MAIN REACT APPLICATION COMPONENT
 export default function App() {
-  const [commencementDate, setCommencementDate] = useState('2024-08-27');
+  const [commencementDate, setCommencementDate] = useState('2025-08-25');
   const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
   const [calendarData, setCalendarData] = useState(null);
   const [isGenerating, setIsGenerating] = useState(false);

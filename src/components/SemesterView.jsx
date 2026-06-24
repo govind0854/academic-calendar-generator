@@ -1,5 +1,6 @@
 
 import React from "react";
+import { getEventColorConfig } from "../data/eventColors";
 
 export default function SemesterView({
   calendarData,
@@ -35,25 +36,29 @@ export default function SemesterView({
                     <h3 className="text-lg font-semibold text-slate-600 mt-2">{calendarData.semesters[activeTab].name}</h3>
                   </div>
 
-                  <div className="overflow-x-auto shadow-sm border border-slate-300">
-                    <table className="w-full text-left text-sm text-slate-800">
-                      <thead className="bg-slate-100 text-slate-700 font-bold border-b border-slate-300">
+                  <div className="overflow-x-auto shadow-sm border-2 border-[#e09b60]">
+                    <table className="w-full text-left text-sm text-slate-800 border-collapse">
+                      <thead className="bg-[#1b1285] text-white font-bold">
                         <tr>
-                          <th className="px-4 py-3 w-16 text-center border-r border-slate-300">S.No.</th>
-                          <th className="px-4 py-3 border-r border-slate-300">Description</th>
-                          <th className="px-4 py-3 border-r border-slate-300 w-40 text-center">From</th>
-                          <th className="px-4 py-3 w-40 text-center">To</th>
+                          <th className="px-4 py-3 w-16 text-center border-r border-b border-[#e09b60]">S.No.</th>
+                          <th className="px-4 py-3 border-r border-b border-[#e09b60]">Description</th>
+                          <th className="px-4 py-3 border-r border-b border-[#e09b60] w-40 text-center">From</th>
+                          <th className="px-4 py-3 w-40 text-center border-b border-[#e09b60]">To</th>
                         </tr>
                       </thead>
-                      <tbody className="divide-y divide-slate-200 bg-white font-medium">
-                        {calendarData.semesters[activeTab].events.map((event, idx) => (
-                          <tr key={idx} className="hover:bg-slate-50 transition-colors">
-                            <td className="px-4 py-3 text-center border-r border-slate-200">{event.sNo}.</td>
-                            <td className="px-4 py-3 border-r border-slate-200">{event.name}</td>
-                            <td className="px-4 py-3 text-center border-r border-slate-200">{formatDate(event.start)}</td>
-                            <td className="px-4 py-3 text-center">{event.end ? formatDate(event.end) : ''}</td>
-                          </tr>
-                        ))}
+                      <tbody className="bg-white font-medium">
+                        {calendarData.semesters[activeTab].events.map((event, idx) => {
+                          const isLastRow = idx === calendarData.semesters[activeTab].events.length - 1;
+                          const cellBorderClass = `px-4 py-3 border-[#e09b60] ${isLastRow ? "" : "border-b"}`;
+                          return (
+                            <tr key={idx} className="hover:bg-slate-50 transition-colors">
+                              <td className={`${cellBorderClass} text-center border-r`}>{event.sNo}.</td>
+                              <td className={`${cellBorderClass} border-r`}>{event.name}</td>
+                              <td className={`${cellBorderClass} text-center border-r`}>{formatDate(event.start)}</td>
+                              <td className={`${cellBorderClass} text-center`}>{event.end ? formatDate(event.end) : ''}</td>
+                            </tr>
+                          );
+                        })}
                       </tbody>
                     </table>
                   </div>
@@ -145,11 +150,11 @@ export default function SemesterView({
                 <div className="flex flex-col xl:flex-row gap-6 items-start">
                   
                   {/* Visual Legend strictly matched to screenshot */}
-                  <div className="w-full xl:w-1/2 overflow-x-auto shadow-sm border border-[#1e3a8a]">
+                  <div className="w-full xl:w-1/2 overflow-x-auto shadow-sm border-2 border-[#1e3a8a]">
                     <table className="w-full text-xs font-bold text-left border-collapse">
                       <tbody>
                         {calendarData.semesters[activeTab].gridEvents.map((ev, i) => {
-                          const colorConfig = EVENT_COLORS.find(c => ev.name.includes(c.keyword)) || { bg: '#ffffff', text: '#000000' };
+                          const colorConfig = getEventColorConfig(ev.name) || { bg: '#ffffff', text: '#000000' };
                           return (
                             <tr key={i} className="border-b border-[#1e3a8a]">
                               <td className="p-2 border-r border-[#1e3a8a]" style={{ backgroundColor: colorConfig.bg, color: colorConfig.text }}>
@@ -166,7 +171,7 @@ export default function SemesterView({
                   </div>
 
                   {/* Visual Holidays List strictly matched to screenshot */}
-                  <div className="w-full xl:w-1/2 overflow-x-auto shadow-sm border border-[#1e3a8a]">
+                  <div className="w-full xl:w-1/2 overflow-x-auto shadow-sm border-2 border-[#1e3a8a]">
                     <table className="w-full text-xs font-bold text-center border-collapse">
                       <thead>
                         <tr>

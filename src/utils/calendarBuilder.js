@@ -1,6 +1,4 @@
-import { fetchLiveHolidays } from "../Services/holidayService.js";
-
-import { generateVacationsFromHolidays } from "./VacationGenerator.js";
+import { fetchLiveHolidays, STATIC_VACATIONS } from "../Services/holidayService.js";
 import { SEMESTER_NAMES } from "../data/semesterNames.js";
 
 import { getTemplate } from "../data/semesterTemplates.js";
@@ -15,7 +13,8 @@ import {
 import { buildGridForSemester } from "./gridBuilder.js";
 
 const isExamEvent = (name) => {
-  return false;
+  const norm = name.toLowerCase();
+  return norm.includes("makeup internal");
 };
 
 const getNextWorkingDay = (date, holidays, vacations) => {
@@ -54,15 +53,7 @@ export const buildFullCalendar = async (initialDateStr, apiKey) => {
   const startYear = userCommencement.getFullYear();
   
   const liveHolidays = await fetchLiveHolidays(startYear, startYear + 4, apiKey);
-  const dynamicVacations = generateVacationsFromHolidays(liveHolidays);
-
-  for (let y = startYear; y <= startYear + 5; y++) {
-      dynamicVacations.push({
-          start: new Date(y, 4, 18), 
-          end: new Date(y, 4, 31),   
-          name: 'Summer Vacation (Heat Waves)'
-      });
-  }
+  const dynamicVacations = STATIC_VACATIONS;
 
   const semesters = [];
   let currentSemStart = new Date(userCommencement);
@@ -128,14 +119,17 @@ export const buildFullCalendar = async (initialDateStr, apiKey) => {
       nextSemStart = nextSemKey ? addDays(currentSemStart, nextSemKey.s) : null;
     }
 
-    const semVacations = dynamicVacations.filter(v => {
-      if (SEMESTER_NAMES[i].id === 'S1' || SEMESTER_NAMES[i].id === 'S2') {
-        return v.name !== 'Summer Vacation (Heat Waves)';
-      }
-      return true;
-    });
+    const rangeStart = SEMESTER_NAMES[i].id === 'I' ? addDays(currentSemStart, -21) : currentSemStart;
 
-    const semHolidays = liveHolidays.filter(h => stripTime(h.date) >= stripTime(currentSemStart) && stripTime(h.date) <= stripTime(endOfClassworkOrExams));
+    const semVacations = dynamicVacations.filter(v => 
+      stripTime(v.start) >= stripTime(rangeStart) && 
+      stripTime(v.start) <= stripTime(endOfClassworkOrExams)
+    );
+
+    const semHolidays = liveHolidays.filter(h => 
+      stripTime(h.date) >= stripTime(rangeStart) && 
+      stripTime(h.date) <= stripTime(endOfClassworkOrExams)
+    );
 console.log(
   "Semester:",
   SEMESTER_NAMES[i].name
@@ -146,7 +140,7 @@ console.log(
   semHolidays
 );    
     const displayHolidays = semHolidays.map(h => ({ dateText: formatDate(h.date), name: h.name, dayText: getDayName(h.date) }))
-    .concat(semVacations.filter(v => stripTime(v.start) >= stripTime(currentSemStart) && stripTime(v.start) <= stripTime(endOfClassworkOrExams)).map(v => ({
+    .concat(semVacations.map(v => ({
         dateText: `${formatDate(v.start)} - ${formatDate(v.end)}`, name: v.name, dayText: `${getDayName(v.start).split(' ')[0]} - ${getDayName(v.end).split(' ')[0]}`
     })));
 
@@ -173,7 +167,11 @@ console.log("Vacations Passed:", semVacations);
 
   const masterSchedule = semesters.map(sem => {
     const getEventStr = (keyword) => {
-      const ev = sem.events.find(e => e.name.includes(keyword));
+      const ev = sem.events.find(e => {
+        const nameNorm = e.name.toLowerCase().replace(/[\s\-\—\–]+/g, '');
+        const kwNorm = keyword.toLowerCase().replace(/[\s\-\—\–]+/g, '');
+        return nameNorm.includes(kwNorm);
+      });
       if (!ev) return '-';
       return ev.end && ev.start !== ev.end ? `${formatDate(ev.start)}-\n${formatDate(ev.end)}` : formatDate(ev.start);
     };
@@ -182,11 +180,11 @@ console.log("Vacations Passed:", semVacations);
       ay: sem.academicYear,
       name: sem.name.replace(' Semester', ''), 
       fullName: sem.name,
-      commencement: getEventStr('Commencement of Class Work'),
-      internal1: getEventStr('Internal Examinations - I'),
-      internal2: getEventStr('Internal Examinations - II'),
-      lab: getEventStr('Semester End Examinations - Lab'),
-      theory: sem.name === 'VIII Semester' ? getEventStr('Project Viva') : getEventStr('Semester End Examinations - Theory')
+      commencement: getEventStr('Commencement'),
+      internal1: getEventStr('Internal Examinations –I'),
+      internal2: getEventStr('Internal Examinations –II'),
+      lab: getEventStr('Semester End Examinations – Lab'),
+      theory: sem.name === 'VIII Semester' ? getEventStr('Semester End Examinations') : getEventStr('Semester End Examinations – Theory')
     };
   });
 
