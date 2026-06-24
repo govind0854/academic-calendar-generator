@@ -14,7 +14,39 @@ import { buildGridForSemester } from "./gridBuilder.js";
 
 const isExamEvent = (name) => {
   const norm = name.toLowerCase();
-  return norm.includes("makeup internal");
+  if (!(norm.includes("examination") || norm.includes("viva") || norm.includes("exam"))) {
+    return false;
+  }
+  if (
+    norm.includes("fee") ||
+    norm.includes("payment") ||
+    norm.includes("register") ||
+    norm.includes("results") ||
+    norm.includes("sheet") ||
+    norm.includes("detention")
+  ) {
+    return false;
+  }
+  return true;
+};
+
+const countWorkingDays = (startDate, endDate, holidays, vacations) => {
+  let count = 0;
+  let current = new Date(startDate);
+  const end = new Date(endDate);
+  
+  while (current <= end) {
+    const t = stripTime(current);
+    const isHoliday = holidays.some(h => stripTime(h.date) === t);
+    const isVacation = vacations.some(v => t >= stripTime(v.start) && t <= stripTime(v.end));
+    const isSun = current.getDay() === 0;
+    
+    if (!isHoliday && !isVacation && !isSun) {
+      count++;
+    }
+    current = addDays(current, 1);
+  }
+  return Math.max(1, count);
 };
 
 const getNextWorkingDay = (date, holidays, vacations) => {
@@ -35,8 +67,9 @@ const getNextWorkingDay = (date, holidays, vacations) => {
 const getWorkingDaysRange = (startDate, durationDays, holidays, vacations) => {
   const dates = [];
   let current = new Date(startDate);
+  const safeDuration = Math.max(1, durationDays);
   
-  while (dates.length < durationDays) {
+  while (dates.length < safeDuration) {
     current = getNextWorkingDay(current, holidays, vacations);
     dates.push(new Date(current));
     current = addDays(current, 1);
@@ -80,10 +113,21 @@ export const buildFullCalendar = async (initialDateStr, apiKey) => {
           }
         }
         
-        const durationDays = tmpl.e !== null ? (tmpl.e - tmpl.s + 1) : 1;
+        let durationDays = 1;
+        const origStart = addDays(currentSemStart, tmpl.s);
+        const origEnd = tmpl.e !== null ? addDays(currentSemStart, tmpl.e) : null;
+        if (tmpl.e !== null) {
+          durationDays = countWorkingDays(origStart, origEnd, liveHolidays, dynamicVacations);
+        }
+        
         const range = getWorkingDaysRange(preferredStart, durationDays, liveHolidays, dynamicVacations);
-        eventStart = range.start;
-        eventEnd = tmpl.e !== null ? range.end : null;
+        if (preferredStart.getTime() === origStart.getTime()) {
+          eventStart = origStart;
+          eventEnd = origEnd;
+        } else {
+          eventStart = range.start;
+          eventEnd = tmpl.e !== null ? range.end : null;
+        }
         
         lastExamEnd = eventEnd !== null ? eventEnd : eventStart;
       }

@@ -94,7 +94,7 @@ export const buildGridForSemester = (events, commDate, endDate, holidays, vacati
     for(let i=0; i<6; i++) { 
       const d = new Date(current);
       const isOutsideSemester = d < gridStart || d > endDate;
-      const isInstructional = !isOutsideSemester && evaluateDay(d, holidays, vacations).isValid;
+      const isInstructional = !isOutsideSemester && d >= commDate && evaluateDay(d, holidays, vacations).isValid;
       const ev = getEventForDate(d, events);
       
       week.days.push({
@@ -113,7 +113,7 @@ export const buildGridForSemester = (events, commDate, endDate, holidays, vacati
 
     if (week.days[0].date < gridStart) {
         week.label = semName === 'I Semester' ? 'SIP' : '-';
-    } else if (hasClasswork || hasEvent) {
+    } else if (hasClasswork) {
         week.label = weekCount++;
     } else {
         week.label = '-';

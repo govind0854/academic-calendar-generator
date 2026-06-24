@@ -21,7 +21,7 @@ const drawHeader = (doc, title, subtitle, subsubtitle, logoBase64) => {
    doc.setFont("Helvetica", "bold");
    doc.setFontSize(18);
    doc.setTextColor(30, 58, 138); // Dark Blue
-   doc.text("ADITYA UNIVERSITY", 396, 30, { align: "center" });
+   doc.text("ADITYA UNIVERSITY", 306, 30, { align: "center" });
    
    if (subtitle) {
       doc.setFont("Helvetica", "bold");
@@ -31,14 +31,14 @@ const drawHeader = (doc, title, subtitle, subsubtitle, logoBase64) => {
       } else {
          doc.setTextColor(51, 65, 85); // Dark grey
       }
-      doc.text(subtitle, 396, 46, { align: "center" });
+      doc.text(subtitle, 306, 46, { align: "center" });
    }
    
    if (subsubtitle) {
       doc.setFont("Helvetica", "normal");
       doc.setFontSize(9);
       doc.setTextColor(100, 116, 139); // Slate grey
-      doc.text(subsubtitle, 396, 58, { align: "center" });
+      doc.text(subsubtitle, 306, 58, { align: "center" });
    }
 };
 
@@ -47,9 +47,21 @@ const drawFooter = (doc, pageNum) => {
    doc.setFontSize(10);
    doc.setTextColor(30, 58, 138); // Dark Blue
    
-   doc.text("B.Tech – 2025 Batch", 36, 578);
-   doc.text("ADITYA UNIVERSITY", 396, 578, { align: "center" });
-   doc.text(`Page ${pageNum} of 22`, 756, 578, { align: "right" });
+   doc.text("B.Tech – 2025 Batch", 36, 755);
+   doc.text("ADITYA UNIVERSITY", 306, 755, { align: "center" });
+   doc.text(`Page ${pageNum} of 22`, 576, 755, { align: "right" });
+};
+
+const drawSignature = (doc, yStart) => {
+   doc.setFont("Helvetica", "bold");
+   doc.setFontSize(8);
+   doc.setTextColor(51, 65, 85);
+   doc.text("Pro Vice-Chancellor", 576, yStart, { align: "right" });
+   doc.text("Academics", 576, yStart + 10, { align: "right" });
+   doc.setFont("Helvetica", "bold");
+   doc.setFontSize(8);
+   doc.setTextColor(30, 58, 138); // Dark Blue
+   doc.text("ADITYA UNIVERSITY", 576, yStart + 20, { align: "right" });
 };
 
 export const downloadPDF = (
@@ -61,9 +73,9 @@ export const downloadPDF = (
 ) => {
     if (!calendarData) return;
     
-    // Initialize jsPDF with letter size, landscape orientation, and points (pt) units
+    // Initialize jsPDF with letter size, portrait orientation, and points (pt) units
     const doc = new jsPDF({
-       orientation: "landscape",
+       orientation: "portrait",
        format: "letter",
        unit: "pt"
     });
@@ -85,10 +97,10 @@ export const downloadPDF = (
         tableLineWidth: 1.5,
         tableLineColor: [30, 58, 138],
         headStyles: { fillColor: [30, 58, 138], textColor: [255, 255, 255], fontStyle: 'bold', halign: 'center', lineWidth: 0.8, lineColor: [30, 58, 138] },
-        styles: { fontSize: 10, cellPadding: 4, halign: 'center', valign: 'middle', lineWidth: 0.8, lineColor: [30, 58, 138] }
+        styles: { fontSize: 10, cellPadding: { top: 6, bottom: 6, left: 4, right: 4 }, halign: 'center', valign: 'middle', lineWidth: 0.8, lineColor: [30, 58, 138] }
     });
 
-    const finalYPage1 = doc.lastAutoTable.finalY + 15;
+    const finalYPage1 = doc.lastAutoTable.finalY + 20;
     doc.setFont("Helvetica", "bold");
     doc.setFontSize(10);
     doc.setTextColor(30, 58, 138);
@@ -96,17 +108,19 @@ export const downloadPDF = (
     
     doc.setFont("Helvetica", "normal");
     doc.setTextColor(51, 65, 85);
-    doc.text("Internal Examinations I - 8th Week of Instruction", 36, finalYPage1 + 10);
-    doc.text("Internal Examinations II - 17th Week of Instruction", 36, finalYPage1 + 18);
+    doc.text("Internal Examinations I - 8th Week of Instruction", 36, finalYPage1 + 12);
+    doc.text("Internal Examinations II - 17th Week of Instruction", 36, finalYPage1 + 22);
 
     doc.setFont("Helvetica", "bold");
     doc.setTextColor(30, 58, 138);
-    doc.text("Summer Semesters: May to June", 36, finalYPage1 + 30);
+    doc.text("Summer Semesters: May to June", 36, finalYPage1 + 38);
     
     doc.setFont("Helvetica", "normal");
     doc.setTextColor(51, 65, 85);
-    doc.text("Internal Examinations I - 4th Week of Instruction", 36, finalYPage1 + 40);
-    doc.text("Internal Examinations II - 7th Week of Instruction", 36, finalYPage1 + 48);
+    doc.text("Internal Examinations I - 4th Week of Instruction", 36, finalYPage1 + 50);
+    doc.text("Internal Examinations II - 7th Week of Instruction", 36, finalYPage1 + 60);
+
+    drawSignature(doc, finalYPage1 + 80);
 
     drawFooter(doc, pageNum++);
 
@@ -144,9 +158,20 @@ export const downloadPDF = (
         theme: 'grid',
         tableLineWidth: 1.5,
         tableLineColor: [30, 58, 138],
+        columnStyles: {
+           0: { cellWidth: 60 },
+           1: { cellWidth: 60 },
+           2: { cellWidth: 80 },
+           3: { cellWidth: 85 },
+           4: { cellWidth: 85 },
+           5: { cellWidth: 85 },
+           6: { cellWidth: 85 }
+        },
         headStyles: { fillColor: [240, 240, 240], textColor: [0, 0, 0], fontStyle: 'bold', halign: 'center', valign: 'middle', lineWidth: 0.8, lineColor: [30, 58, 138] },
-        styles: { fontSize: 8, cellPadding: 3, halign: 'center', valign: 'middle', lineWidth: 0.8, lineColor: [30, 58, 138] }
+        styles: { fontSize: 8, cellPadding: { top: 12, bottom: 12, left: 3, right: 3 }, halign: 'center', valign: 'middle', lineWidth: 0.8, lineColor: [30, 58, 138] }
     });
+
+    drawSignature(doc, doc.lastAutoTable.finalY + 25);
 
     drawFooter(doc, pageNum++);
 
@@ -173,8 +198,14 @@ export const downloadPDF = (
         tableRows.push([event.sNo, event.name, formatDate(event.start), event.end ? formatDate(event.end) : '']);
       });
 
+       const startY = 85;
+       const targetEnd = 620;
+       const availableHeight = targetEnd - startY;
+       const numRows = tableRows.length + 1;
+       const cellPaddingY = Math.min(15, Math.max(3, (availableHeight / numRows - 10) / 2));
+
        autoTable(doc, {
-        startY: 75,
+        startY: startY,
         margin: { left: 36, right: 36 },
         head: [tableColumn],
         body: tableRows,
@@ -182,14 +213,16 @@ export const downloadPDF = (
         tableLineWidth: 1.5,
         tableLineColor: [224, 155, 96],
         headStyles: { fillColor: [27, 18, 133], textColor: [255, 255, 255], fontStyle: 'bold', halign: 'center', lineWidth: 0.8, lineColor: [224, 155, 96] },
-        styles: { fontSize: 9, cellPadding: 3, lineWidth: 0.8, lineColor: [224, 155, 96] },
+        styles: { fontSize: 9, cellPadding: { top: cellPaddingY, bottom: cellPaddingY, left: 6, right: 6 }, lineWidth: 0.8, lineColor: [224, 155, 96] },
         columnStyles: { 
-           0: { cellWidth: 40, halign: 'center' }, 
-           1: { cellWidth: 440 }, 
-           2: { cellWidth: 120, halign: 'center' }, 
-           3: { cellWidth: 120, halign: 'center' } 
+           0: { cellWidth: 35, halign: 'center' }, 
+           1: { cellWidth: 345 }, 
+           2: { cellWidth: 80, halign: 'center' }, 
+           3: { cellWidth: 80, halign: 'center' } 
         }
       });
+
+      drawSignature(doc, doc.lastAutoTable.finalY + 25);
 
       drawFooter(doc, pageNum++);
 
@@ -315,18 +348,25 @@ export const downloadPDF = (
       totalRow.push({ content: grandTotal.toString(), styles: { fontStyle: 'bold', halign: 'center', fillColor: [255, 255, 255], textColor: [30, 58, 138] } });
       gridBody.push(totalRow);
 
-      // Column widths sizing (keeping it bounded to margins of 36pt and 720pt tableWidth)
+      const separatorCount = sem.gridData.months.length - 1;
+      const weekCount = cols.length - separatorCount;
+      const dayWidth = 30;
+      const totalDaysWidth = 40;
+      const separatorWidth = 2;
+      const remainingWidth = 540 - dayWidth - totalDaysWidth - separatorCount * separatorWidth;
+      const weekWidth = remainingWidth / weekCount;
+
       const columnStyles = {
-         0: { cellWidth: 45 },
+         0: { cellWidth: dayWidth }
       };
       cols.forEach((col, idx) => {
          if (col.type === 'separator') {
-            columnStyles[idx + 1] = { cellWidth: 3 };
+            columnStyles[idx + 1] = { cellWidth: separatorWidth };
          } else {
-            columnStyles[idx + 1] = { cellWidth: (720 - 45 - 55 - (sem.gridData.months.length - 1) * 3) / (cols.length - (sem.gridData.months.length - 1)) };
+            columnStyles[idx + 1] = { cellWidth: weekWidth };
          }
       });
-      columnStyles[cols.length + 1] = { cellWidth: 55 };
+      columnStyles[cols.length + 1] = { cellWidth: totalDaysWidth };
 
       // Draw main matrix table
       autoTable(doc, {
@@ -338,7 +378,7 @@ export const downloadPDF = (
         tableLineWidth: 1.5,
         tableLineColor: [30, 58, 138],
         columnStyles: columnStyles,
-        styles: { fontSize: 8, cellPadding: 2, lineWidth: 0.8, lineColor: [30, 58, 138] },
+        styles: { fontSize: 7.5, cellPadding: 2, lineWidth: 0.8, lineColor: [30, 58, 138] },
         headStyles: { lineWidth: 0.8, lineColor: [30, 58, 138] },
       });
 
@@ -354,15 +394,15 @@ export const downloadPDF = (
       });
 
       autoTable(doc, {
-        startY: finalYMatrix + 10,
+        startY: finalYMatrix + 25,
         margin: { left: 36 },
         body: legendBody,
         theme: 'grid',
-        tableWidth: 340,
+        tableWidth: 260,
         tableLineWidth: 1.5,
         tableLineColor: [30, 58, 138],
         styles: { fontSize: 8, cellPadding: 3, lineWidth: 0.8, lineColor: [30, 58, 138] },
-        columnStyles: { 0: { cellWidth: 200 }, 1: { cellWidth: 140, halign: 'center' } },
+        columnStyles: { 0: { cellWidth: 150 }, 1: { cellWidth: 110, halign: 'center' } },
         didParseCell: (data) => {
           if (data.row.section === 'body') {
             const eventName = data.row.raw[0].content || data.row.raw[0];
@@ -380,23 +420,27 @@ export const downloadPDF = (
       sem.holidaysList.forEach(hol => holTable.push([hol.name, hol.dateText, hol.dayText]));
 
       autoTable(doc, {
-        startY: finalYMatrix + 10,
-        margin: { left: 396 },
+        startY: finalYMatrix + 25,
+        margin: { left: 316 },
         head: [[{content: 'List of Holidays', colSpan: 3, styles: {fillColor: [30, 58, 138], textColor: [255, 255, 255], halign: 'center', fontStyle: 'bold', lineWidth: 0.8, lineColor: [30, 58, 138]}}]],
         body: holTable,
         theme: 'grid',
-        tableWidth: 360,
+        tableWidth: 260,
         tableLineWidth: 1.5,
         tableLineColor: [30, 58, 138],
         styles: { fontSize: 8, cellPadding: 3, lineWidth: 0.8, lineColor: [30, 58, 138] },
-        columnStyles: { 0: { cellWidth: 160, halign: 'left' }, 1: { cellWidth: 110, halign: 'center' }, 2: { cellWidth: 90, halign: 'center' } },
+        columnStyles: { 0: { cellWidth: 130, halign: 'left' }, 1: { cellWidth: 80, halign: 'center' }, 2: { cellWidth: 50, halign: 'center' } },
       });
+
+      const finalYBottom = Math.max(doc.lastAutoTable.finalY || 0, finalYMatrix + 180);
 
       // Holiday Notice text
       doc.setFont("Helvetica", "italic");
       doc.setFontSize(9);
       doc.setTextColor(51, 65, 85);
-      doc.text("Note: Holidays are subject to change as per the AP Government notification", 36, 525);
+      doc.text("Note: Holidays are subject to change as per the AP Government notification", 36, finalYBottom + 15);
+
+      drawSignature(doc, finalYBottom + 30);
 
       drawFooter(doc, pageNum++);
     });

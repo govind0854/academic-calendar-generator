@@ -52,7 +52,7 @@ export const PDF_TEMPLATES = {
     { n: 'Declaration of Results', s: 166, e: null, hideFromGrid: true },
     { n: 'Payment for SEE script viewing & Revaluation', s: 166, e: 170, hideFromGrid: true },
     { n: 'Declaration of Revaluation results', s: 177, e: null, hideFromGrid: true },
-    { n: 'Availability of Online Grade Sheet', s: -178, e: null, hideFromGrid: true },
+    { n: 'Availability of Online Grade Sheet', s: 187, e: null, hideFromGrid: true },
     { n: 'Commencement of IV Semester', s: 154, e: null, hideFromGrid: true },
   ],
   'IV': [

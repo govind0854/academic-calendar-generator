@@ -17,7 +17,6 @@ export const getCellStyles = (dayObj) => {
 export const getCellContent = (dayObj) => {
   if (dayObj.isOutsideSemester) return "";
   if (dayObj.isBlank) return "-";
-  if (dayObj.event) return dayObj.date.getDate();
   if (!dayObj.isInstructional) return "-";
   return dayObj.date.getDate();
 };
